@@ -1,0 +1,54 @@
+apiVersion: v1
+entries:
+  ce:
+    - apiVersion: v2
+      appVersion: "12.0"
+      created: "2025-03-17T16:10:05.46636979Z"
+      description: Helm chart for Seafile Pro.
+      digest: e371c6b4eb19100df6a57f258462649d10bba7bb9c97667c3a822cd89f5091b2
+      home: https://seafile.com
+      icon: https://de.seafile.com/wp-content/themes/seafileger/img/svg/seafile_logo_proposed.svg
+      maintainers:
+        - name: seafileDocs
+      name: ce
+      sources:
+        - https://github.com/haiwen/seafile
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/alexbevan/seafile-helm-chart/main/repo/ce-12.0.tgz
+      version: "12.0"
+  cluster:
+    - apiVersion: v2
+      appVersion: "12.0"
+      created: "2025-03-17T16:10:05.471114167Z"
+      description: Helm chart for Seafile cluster.
+      digest: 611541887792f15471ac6ee421bdfeef8e04170f1682cc3e19565d9c32d9dcb2
+      home: https://seafile.com
+      icon: https://de.seafile.com/wp-content/themes/seafileger/img/svg/seafile_logo_proposed.svg
+      maintainers:
+        - name: seafileDocs
+      name: cluster
+      sources:
+        - https://github.com/haiwen/seafile
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/alexbevan/seafile-helm-chart/main/repo/repo/cluster-12.0.tgz
+      version: "12.0"
+  pro:
+    - apiVersion: v2
+      appVersion: "12.0"
+      created: "2025-03-17T16:10:05.475781797Z"
+      description: Helm chart for Seafile Pro.
+      digest: caa54f5d62dc1b9383f50f48f09a16e7ecc44eb2f39604759bbbd704eaac93d0
+      home: https://seafile.com
+      icon: https://de.seafile.com/wp-content/themes/seafileger/img/svg/seafile_logo_proposed.svg
+      maintainers:
+        - name: seafileDocs
+      name: pro
+      sources:
+        - https://github.com/haiwen/seafile
+      type: application
+      urls:
+        - https://raw.githubusercontent.com/alexbevan/seafile-helm-chart/main/repo/repo/pro-12.0.tgz
+      version: "12.0"
+generated: "2025-03-17T16:10:05.461300948Z"

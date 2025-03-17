@@ -5,6 +5,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
+  storageClassName: { { .Values.seafileDataVolume.storageClassName } }
   resources:
     requests:
-      storage: {{ include "seafile.seafileDataVolume.storage" . }}
+      storage: { { include "seafile.seafileDataVolume.storage" . } }

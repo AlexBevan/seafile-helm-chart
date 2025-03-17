@@ -3,7 +3,6 @@ seafile:
   configs: {} # seafile container configurations, object
   env: {} # environment variables for seafile service, object
   secretsMap: {} # seafile services secrets env, object
-  
   # extra infomations object(frontend, backend)
   extraResources: {}
   extraEnv: []
@@ -61,4 +60,3 @@ seafile:
     - name: INIT_S3_SECRET_KEY
       secret: seafile-secret
       key: INIT_S3_SECRET_KEY
-    
